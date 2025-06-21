@@ -1,0 +1,17 @@
+[
+  {
+    "id": "test-event-123",
+    "eventType": "Microsoft.Defender.Alert",
+    "subject": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup",
+    "eventTime": "2025-06-20T16:17:45.0000000Z",
+    "data": {
+      "alertId": "alert-123",
+      "severity": "High",
+      "description": "Test Defender Alert",
+      "status": "Active"
+    },
+    "dataVersion": "1.0",
+    "metadataVersion": "1",
+    "topic": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.EventGrid/topics/myTopic"
+  }
+]
